@@ -1,0 +1,42 @@
+{
+  "_comment": "Every economic and policy constant the simulator uses. Prices are ILLUSTRATIVE tier prices, not a vendor quote. Replace with your negotiated rates before using numbers in a business case.",
+  "model_tiers": {
+    "frontier": {"input_per_1m": 5.00, "output_per_1m": 25.00, "capability": 1.00, "speed_factor": 1.00},
+    "balanced": {"input_per_1m": 1.00, "output_per_1m": 5.00,  "capability": 0.75, "speed_factor": 0.55},
+    "small":    {"input_per_1m": 0.15, "output_per_1m": 0.60,  "capability": 0.45, "speed_factor": 0.30}
+  },
+  "capacity": {
+    "org_tpm_limit": 5000000,
+    "queue_rho_cap": 0.90,
+    "queue_alpha": 0.5,
+    "throttle_backoff_ms": 8000,
+    "client_timeout_ms": 30000,
+    "latency_jitter_sigma": 0.18
+  },
+  "slo": {
+    "p99_latency_ms": 15000,
+    "budgeted_burn_usd_per_hr": 60.0,
+    "max_error_rate": 0.01
+  },
+  "governance": {
+    "classification_levels": {"public": 0, "internal": 1, "confidential": 2, "restricted": 3},
+    "violation_weights": {"public": 1, "internal": 2, "confidential": 5, "restricted": 10},
+    "cross_tenant_multiplier": 2.0,
+    "cost_per_exposed_record_usd": 180.0,
+    "probability_exposed_record_exfiltrated": 0.30,
+    "prefilter_latency_overhead": 0.12
+  },
+  "portfolio": {
+    "trailing_months": 3,
+    "attribution_confidence": {"ab_test": 1.0, "finance_verified": 1.0, "telemetry_proxy": 0.6, "survey": 0.3, "none": 0.0},
+    "scale_min_roi": 1.5,
+    "scale_min_adoption": 0.40,
+    "scale_min_confidence": 0.6,
+    "fix_min_roi": 0.8,
+    "purgatory_months": 6,
+    "residual_retry_overhead_after_breaker": 0.03,
+    "max_retry_overhead_to_scale": 0.20
+  },
+  "risk_weights": {"financial": 0.35, "reliability": 0.25, "governance": 0.40},
+  "simulation_seed": 20261014
+}

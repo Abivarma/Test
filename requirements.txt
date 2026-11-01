@@ -1,0 +1,6 @@
+# Pure-Python / arm64-wheel dependencies only — no CUDA, no compilers. Runs natively on Apple Silicon.
+streamlit>=1.40,<2
+pandas>=2.2
+numpy>=1.26
+altair>=5.3
+pytest>=8.0

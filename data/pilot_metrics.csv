@@ -1,0 +1,61 @@
+month,pilot_id,pilot_name,business_unit,service,phase,primary_model_tier,licensed_users,active_users,requests,inference_cost_usd,platform_cost_usd,engineering_cost_usd,outcome_metric,outcome_units,value_per_unit_usd,measured_value_usd,value_attribution,hallucination_rate,retry_overhead_pct,records_at_risk,security_findings_critical,acl_finding_open
+2025-11,P1,Customer Support Copilot,Retail Banking Ops,support-copilot,pilot,frontier,1500,153,6368,2439.7,6092.63,46789.47,tickets_deflected,1990,6.5,12935.0,ab_test,0.0192,0.034,0,0,0
+2025-12,P1,Customer Support Copilot,Retail Banking Ops,support-copilot,pilot,frontier,1500,323,17817,5009.27,5686.67,45913.93,tickets_deflected,5568,6.5,36192.0,ab_test,0.013,0.022,0,0,0
+2026-01,P1,Customer Support Copilot,Retail Banking Ops,support-copilot,pilot,frontier,1500,418,26992,6954.46,6125.2,47056.89,tickets_deflected,8435,6.5,54827.5,ab_test,0.02,0.035,0,0,0
+2026-02,P1,Customer Support Copilot,Retail Banking Ops,support-copilot,pilot,frontier,1500,580,33120,9363.16,6074.92,46684.86,tickets_deflected,10350,6.5,67275.0,ab_test,0.0236,0.059,0,0,0
+2026-03,P1,Customer Support Copilot,Retail Banking Ops,support-copilot,pilot,frontier,1500,618,37590,9661.15,5904.93,45224.52,tickets_deflected,11747,6.5,76355.5,ab_test,0.028,0.055,0,0,0
+2026-04,P1,Customer Support Copilot,Retail Banking Ops,support-copilot,limited_production,frontier,1500,730,42521,11056.66,6435.63,47266.19,tickets_deflected,13288,6.5,86372.0,ab_test,0.0126,0.055,0,0,0
+2026-05,P1,Customer Support Copilot,Retail Banking Ops,support-copilot,limited_production,frontier,1500,823,51587,12279.82,6145.43,45896.55,tickets_deflected,16121,6.5,104786.5,ab_test,0.0149,0.041,0,0,0
+2026-06,P1,Customer Support Copilot,Retail Banking Ops,support-copilot,limited_production,frontier,1500,889,54326,13169.15,5895.8,45882.85,tickets_deflected,16977,6.5,110350.5,ab_test,0.0126,0.02,0,0,0
+2026-07,P1,Customer Support Copilot,Retail Banking Ops,support-copilot,limited_production,frontier,1500,945,62006,15293.76,6510.81,46537.93,tickets_deflected,19377,6.5,125950.5,ab_test,0.018,0.046,0,0,0
+2026-08,P1,Customer Support Copilot,Retail Banking Ops,support-copilot,scaled,frontier,1500,1009,68515,15960.51,6238.68,45985.98,tickets_deflected,21411,6.5,139171.5,ab_test,0.0159,0.043,0,0,0
+2026-09,P1,Customer Support Copilot,Retail Banking Ops,support-copilot,scaled,frontier,1500,1071,73280,17968.23,5742.46,46339.44,tickets_deflected,22900,6.5,148850.0,ab_test,0.0157,0.04,0,0,0
+2026-10,P1,Customer Support Copilot,Retail Banking Ops,support-copilot,scaled,frontier,1500,1164,71788,18119.21,6210.78,44959.31,tickets_deflected,22434,6.5,145821.0,ab_test,0.0176,0.025,0,0,0
+2025-11,P2,Contract Clause Extractor,Legal,contract-extractor,pilot,frontier,40,7,105,1160.95,4339.07,29853.77,review_hours_saved,33,210.0,6930.0,telemetry_proxy,0.0168,0.059,0,0,0
+2025-12,P2,Contract Clause Extractor,Legal,contract-extractor,pilot,frontier,40,6,204,1416.11,4250.64,30460.07,review_hours_saved,64,210.0,13440.0,telemetry_proxy,0.0169,0.055,0,0,0
+2026-01,P2,Contract Clause Extractor,Legal,contract-extractor,pilot,frontier,40,5,259,1771.98,4369.46,29546.23,review_hours_saved,81,210.0,17010.0,telemetry_proxy,0.0164,0.048,0,0,0
+2026-02,P2,Contract Clause Extractor,Legal,contract-extractor,pilot,frontier,40,8,358,1895.74,4183.49,28912.18,review_hours_saved,112,210.0,23520.0,telemetry_proxy,0.0221,0.054,0,0,0
+2026-03,P2,Contract Clause Extractor,Legal,contract-extractor,pilot,frontier,40,10,390,2137.39,4124.29,30595.03,review_hours_saved,122,210.0,25620.0,telemetry_proxy,0.0198,0.044,0,0,0
+2026-04,P2,Contract Clause Extractor,Legal,contract-extractor,pilot,frontier,40,9,419,2335.29,4151.41,29004.83,review_hours_saved,131,210.0,27510.0,telemetry_proxy,0.017,0.048,0,0,0
+2026-05,P2,Contract Clause Extractor,Legal,contract-extractor,pilot,frontier,40,10,460,2416.86,4176.4,30166.78,review_hours_saved,144,210.0,30240.0,telemetry_proxy,0.0224,0.028,0,0,0
+2026-06,P2,Contract Clause Extractor,Legal,contract-extractor,limited_production,frontier,40,11,505,2415.7,4124.71,30354.38,review_hours_saved,158,210.0,33180.0,telemetry_proxy,0.0117,0.038,0,0,0
+2026-07,P2,Contract Clause Extractor,Legal,contract-extractor,limited_production,frontier,40,12,566,2701.49,4107.4,29205.2,review_hours_saved,177,210.0,37170.0,telemetry_proxy,0.0238,0.045,0,0,0
+2026-08,P2,Contract Clause Extractor,Legal,contract-extractor,limited_production,frontier,40,11,620,2945.3,4251.04,30831.77,review_hours_saved,194,210.0,40740.0,telemetry_proxy,0.0205,0.021,0,0,0
+2026-09,P2,Contract Clause Extractor,Legal,contract-extractor,limited_production,frontier,40,11,627,2901.7,4314.46,29778.28,review_hours_saved,196,210.0,41160.0,telemetry_proxy,0.0204,0.032,0,0,0
+2026-10,P2,Contract Clause Extractor,Legal,contract-extractor,limited_production,frontier,40,11,672,3092.38,4097.5,29903.49,review_hours_saved,210,210.0,44100.0,telemetry_proxy,0.0193,0.039,0,0,0
+2025-11,P3,HR Policy Assistant,People & HR,hr-policy-bot,pilot,frontier,3000,295,2393,2228.44,6857.41,24700.47,hr_tickets_deflected,748,9.0,6732.0,telemetry_proxy,0.0311,0.048,0,0,0
+2025-12,P3,HR Policy Assistant,People & HR,hr-policy-bot,pilot,frontier,3000,356,2627,2937.1,6980.28,24271.13,hr_tickets_deflected,821,9.0,7389.0,telemetry_proxy,0.0321,0.047,0,0,0
+2026-01,P3,HR Policy Assistant,People & HR,hr-policy-bot,pilot,frontier,3000,387,2736,3215.2,7195.92,25248.94,hr_tickets_deflected,855,9.0,7695.0,telemetry_proxy,0.0355,0.039,0,0,0
+2026-02,P3,HR Policy Assistant,People & HR,hr-policy-bot,pilot,frontier,3000,415,3235,3436.65,6715.59,25191.41,hr_tickets_deflected,1011,9.0,9099.0,telemetry_proxy,0.0372,0.046,0,0,0
+2026-03,P3,HR Policy Assistant,People & HR,hr-policy-bot,pilot,frontier,3000,424,3196,3487.87,7146.75,24621.46,hr_tickets_deflected,999,9.0,8991.0,telemetry_proxy,0.0395,0.031,0,0,0
+2026-04,P3,HR Policy Assistant,People & HR,hr-policy-bot,pilot,frontier,3000,472,3270,3824.59,7458.85,25687.73,hr_tickets_deflected,1022,9.0,9198.0,telemetry_proxy,0.0325,0.055,0,0,0
+2026-05,P3,HR Policy Assistant,People & HR,hr-policy-bot,pilot,frontier,3000,496,3699,4156.8,7044.99,24775.47,hr_tickets_deflected,1156,9.0,10404.0,telemetry_proxy,0.032,0.048,0,0,0
+2026-06,P3,HR Policy Assistant,People & HR,hr-policy-bot,pilot,frontier,3000,512,4163,4309.05,7084.02,25063.11,hr_tickets_deflected,1301,9.0,11709.0,telemetry_proxy,0.0365,0.05,0,0,0
+2026-07,P3,HR Policy Assistant,People & HR,hr-policy-bot,pilot,frontier,3000,543,4352,4407.25,6805.22,25881.82,hr_tickets_deflected,1360,9.0,12240.0,telemetry_proxy,0.0365,0.039,0,0,0
+2026-08,P3,HR Policy Assistant,People & HR,hr-policy-bot,pilot,frontier,3000,590,4384,4544.85,7006.11,24913.75,hr_tickets_deflected,1370,9.0,12330.0,telemetry_proxy,0.0398,0.045,344,1,1
+2026-09,P3,HR Policy Assistant,People & HR,hr-policy-bot,pilot,frontier,3000,623,4713,5117.53,6954.09,24967.15,hr_tickets_deflected,1473,9.0,13257.0,telemetry_proxy,0.0395,0.04,323,1,1
+2026-10,P3,HR Policy Assistant,People & HR,hr-policy-bot,pilot,frontier,3000,597,4608,5214.36,7079.44,23876.6,hr_tickets_deflected,1440,9.0,12960.0,telemetry_proxy,0.0354,0.039,289,1,1
+2025-11,P4,Sales Email Generator,Commercial,sales-email-gen,pilot,frontier,900,422,5705,13834.55,4968.75,20096.29,self_reported_hours_saved,1783,55.0,98065.0,survey,0.0601,0.027,0,0,0
+2025-12,P4,Sales Email Generator,Commercial,sales-email-gen,pilot,frontier,900,458,6531,18173.37,4952.91,19370.2,self_reported_hours_saved,2041,55.0,112255.0,survey,0.0628,0.042,0,0,0
+2026-01,P4,Sales Email Generator,Commercial,sales-email-gen,pilot,frontier,900,511,6265,20952.16,4886.66,19930.36,self_reported_hours_saved,1958,55.0,107690.0,survey,0.0608,0.051,0,0,0
+2026-02,P4,Sales Email Generator,Commercial,sales-email-gen,pilot,frontier,900,535,7856,24087.48,4770.64,20443.88,self_reported_hours_saved,2455,55.0,135025.0,survey,0.0613,0.023,0,0,0
+2026-03,P4,Sales Email Generator,Commercial,sales-email-gen,pilot,frontier,900,583,8675,27080.5,5254.43,20035.67,self_reported_hours_saved,2711,55.0,149105.0,survey,0.0562,0.037,0,0,0
+2026-04,P4,Sales Email Generator,Commercial,sales-email-gen,pilot,frontier,900,624,9740,29780.41,5219.97,19648.7,self_reported_hours_saved,3044,55.0,167420.0,survey,0.0642,0.043,0,0,0
+2026-05,P4,Sales Email Generator,Commercial,sales-email-gen,pilot,frontier,900,658,10083,32714.19,5067.37,19279.29,self_reported_hours_saved,3151,55.0,173305.0,survey,0.0671,0.051,0,0,0
+2026-06,P4,Sales Email Generator,Commercial,sales-email-gen,pilot,frontier,900,651,10489,35046.8,4712.04,20436.7,self_reported_hours_saved,3278,55.0,180290.0,survey,0.066,0.034,0,0,0
+2026-07,P4,Sales Email Generator,Commercial,sales-email-gen,pilot,frontier,900,697,11641,37837.29,4717.36,20156.4,self_reported_hours_saved,3638,55.0,200090.0,survey,0.0581,0.058,0,0,0
+2026-08,P4,Sales Email Generator,Commercial,sales-email-gen,pilot,frontier,900,749,11993,37898.93,5161.84,19489.65,self_reported_hours_saved,3748,55.0,206140.0,survey,0.0655,0.04,0,0,0
+2026-09,P4,Sales Email Generator,Commercial,sales-email-gen,pilot,frontier,900,761,12627,39448.1,5169.2,19392.89,self_reported_hours_saved,3946,55.0,217030.0,survey,0.0622,0.039,0,0,0
+2026-10,P4,Sales Email Generator,Commercial,sales-email-gen,pilot,frontier,900,787,13628,41053.72,4971.04,20935.86,self_reported_hours_saved,4259,55.0,234245.0,survey,0.0607,0.037,0,0,0
+2025-11,P5,Invoice Reconciliation Agent,Finance Ops,invoice-recon-agent,pilot,frontier,60,19,5100,1479.78,3253.42,28133.11,invoices_auto_reconciled,1244,4.2,5224.8,finance_verified,0.0203,0.044,0,0,0
+2025-12,P5,Invoice Reconciliation Agent,Finance Ops,invoice-recon-agent,pilot,frontier,60,23,14136,2462.84,3649.33,28043.39,invoices_auto_reconciled,3448,4.2,14481.6,finance_verified,0.0175,0.049,0,0,0
+2026-01,P5,Invoice Reconciliation Agent,Finance Ops,invoice-recon-agent,pilot,frontier,60,27,17453,3197.14,3418.13,27879.28,invoices_auto_reconciled,4257,4.2,17879.4,finance_verified,0.0182,0.042,0,0,0
+2026-02,P5,Invoice Reconciliation Agent,Finance Ops,invoice-recon-agent,pilot,frontier,60,30,25903,3763.14,3532.37,27860.86,invoices_auto_reconciled,6318,4.2,26535.6,finance_verified,0.016,0.032,0,0,0
+2026-03,P5,Invoice Reconciliation Agent,Finance Ops,invoice-recon-agent,pilot,frontier,60,32,29925,4295.72,3446.96,28173.99,invoices_auto_reconciled,7299,4.2,30655.8,finance_verified,0.0133,0.051,0,0,0
+2026-04,P5,Invoice Reconciliation Agent,Finance Ops,invoice-recon-agent,pilot,frontier,60,33,36494,4681.6,3382.59,27585.37,invoices_auto_reconciled,8901,4.2,37384.2,finance_verified,0.0152,0.036,0,0,0
+2026-05,P5,Invoice Reconciliation Agent,Finance Ops,invoice-recon-agent,pilot,frontier,60,35,39458,5579.38,3439.02,27497.74,invoices_auto_reconciled,9624,4.2,40420.8,finance_verified,0.0204,0.039,0,0,0
+2026-06,P5,Invoice Reconciliation Agent,Finance Ops,invoice-recon-agent,limited_production,frontier,60,41,45231,6638.85,3780.6,27776.8,invoices_auto_reconciled,11032,4.2,46334.4,finance_verified,0.0186,0.043,0,0,0
+2026-07,P5,Invoice Reconciliation Agent,Finance Ops,invoice-recon-agent,limited_production,frontier,60,41,46875,7012.51,3556.26,28749.3,invoices_auto_reconciled,11433,4.2,48018.6,finance_verified,0.0195,0.038,0,0,0
+2026-08,P5,Invoice Reconciliation Agent,Finance Ops,invoice-recon-agent,limited_production,frontier,60,43,55825,7260.19,3281.03,27524.59,invoices_auto_reconciled,13616,4.2,57187.2,finance_verified,0.0104,0.033,0,0,0
+2026-09,P5,Invoice Reconciliation Agent,Finance Ops,invoice-recon-agent,limited_production,frontier,60,44,57067,14140.89,3577.26,28144.22,invoices_auto_reconciled,13919,4.2,58459.8,finance_verified,0.0147,0.46,0,0,0
+2026-10,P5,Invoice Reconciliation Agent,Finance Ops,invoice-recon-agent,limited_production,frontier,60,48,56772,39281.93,3586.35,27727.72,invoices_auto_reconciled,13847,4.2,58157.4,finance_verified,0.0168,0.78,0,0,0
